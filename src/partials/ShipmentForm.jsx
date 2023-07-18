@@ -264,7 +264,7 @@ function ShipmentForm() {
                             <textarea id="additionalInfo" name="additionalInfo" rows="4"
                                       className="form-textarea w-full dark:text-white placeholder-gray-400 dark:placeholder-white"
                                       value={additionalInfo} onChange={e => setAdditionalInfo(e.target.value)}
-                                      placeholder="What do you want to build with Appy?"></textarea>
+                                      placeholder="More info about the load"></textarea>
                         </div>
                     </div>
                 </Accordion>
