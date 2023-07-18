@@ -60,7 +60,7 @@ function Carousel() {
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex grow">
                     <div className="w-full h-full bg-gray-900 bg-opacity-80 from-gray-900 p-10">
-                      <p className="font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Join our platform and enjoy the benefits of efficient transportation. Register and create an account today to gain access to faster load bookings, real-time shipment tracking, and optimized route planning. Experience a user-friendly dashboard and mobile app to monitor every step of your shipments. Let us streamline your logistics and elevate your transportation experience. Sign up now!</p>
+                      <p className="text-xs font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Join our platform and enjoy the benefits of efficient transportation. Register and create an account today to gain access to faster load bookings, real-time shipment tracking, and optimized route planning. Experience a user-friendly dashboard and mobile app to monitor every step of your shipments. Let us streamline your logistics and elevate your transportation experience. Sign up now!</p>
                     </div>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
@@ -74,7 +74,7 @@ function Carousel() {
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex grow">
                   <div className="w-full h-full bg-gray-900 bg-opacity-80 from-gray-900 p-10">
-                    <p className="font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Discover a seamless trucking experience with our platform. Register and create an account to access a world of loads waiting for you. Effortlessly find and book shipments, optimize routes, and track deliveries in real-time. Our user-friendly dashboard and mobile app keep you in control at every turn. Sign up now and take your trucking journey to new heights!</p>
+                    <p className="text-xs font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Discover a seamless trucking experience with our platform. Register and create an account to access a world of loads waiting for you. Effortlessly find and book shipments, optimize routes, and track deliveries in real-time. Our user-friendly dashboard and mobile app keep you in control at every turn. Sign up now and take your trucking journey to new heights!</p>
                   </div>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
@@ -88,7 +88,7 @@ function Carousel() {
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex grow">
                   <div className="w-full h-full bg-gray-900 bg-opacity-80 from-gray-900 p-10">
-                    <p className="font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Welcome to a platform built for shippers like you. Simplify the way you ship goods with our user-friendly registration and account creation. Publish loads and connect with reliable carriers instantly. Enjoy the ease of live monitoring, tracking your shipments in real-time from pickup to delivery. Our intuitive dashboard and mobile app make managing your loads a breeze. Experience efficient shipping like never before</p>
+                    <p className="text-xs font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Welcome to a platform built for shippers like you. Simplify the way you ship goods with our user-friendly registration and account creation. Publish loads and connect with reliable carriers instantly. Enjoy the ease of live monitoring, tracking your shipments in real-time from pickup to delivery. Our intuitive dashboard and mobile app make managing your loads a breeze. Experience efficient shipping like never before</p>
                   </div>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
@@ -102,7 +102,7 @@ function Carousel() {
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex grow">
                   <div className="w-full h-full bg-gray-900 bg-opacity-80 from-gray-900 p-10">
-                    <p className="font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Welcome to a platform built for shippers like you. Simplify the way you ship goods with our user-friendly registration and account creation. Publish loads and connect with reliable carriers instantly. Enjoy the ease of live monitoring, tracking your shipments in real-time from pickup to delivery. Our intuitive dashboard and mobile app make managing your loads a breeze. Experience efficient shipping like never before</p>
+                    <p className="text-xs font-bold leading-relaxed text-lg inline-flex text-white mx-auto self-center">Welcome to a platform built for shippers like you. Simplify the way you ship goods with our user-friendly registration and account creation. Publish loads and connect with reliable carriers instantly. Enjoy the ease of live monitoring, tracking your shipments in real-time from pickup to delivery. Our intuitive dashboard and mobile app make managing your loads a breeze. Experience efficient shipping like never before</p>
                   </div>
                 </div>
                 <div className="absolute bottom-0 right-0 p-6">
