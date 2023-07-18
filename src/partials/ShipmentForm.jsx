@@ -33,7 +33,7 @@ function ShipmentForm() {
 
     const fetchMotorTypes = async () => {
         try {
-            const response = await fetch('http://api.elixirstudio.ru:8080/v1/motor-types');
+            const response = await fetch('https://api.cargocode.ai/v1/motor-types');
             const data = await response.json();
             setMotorTypes(data.results);
         } catch (error) {
@@ -43,7 +43,7 @@ function ShipmentForm() {
 
     const fetchLoadTypes = async () => {
         try {
-            const response = await fetch('http://api.elixirstudio.ru:8080/v1/load-types');
+            const response = await fetch('https://api.cargocode.ai/v1/load-types');
             const data = await response.json();
             setLoadTypes(data.results);
         } catch (error) {
@@ -104,7 +104,7 @@ function ShipmentForm() {
 
     const postShipment = async (data) => {
         try {
-            const response = await fetch('http://api.elixirstudio.ru:8080/v1/shipments', {
+            const response = await fetch('https://api.cargocode.ai/v1/shipments', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(data),
