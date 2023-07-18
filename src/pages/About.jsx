@@ -6,6 +6,7 @@ import FeaturesGallery from '../partials/FeaturesGallery';
 import FeaturesAnimation from '../partials/FeaturesAnimation';
 import CtaContact from '../partials/CtaContact';
 import Footer from '../partials/Footer';
+import Process2 from "../partials/Process2";
 
 function About() {
   return (
@@ -21,6 +22,7 @@ function About() {
         <HeroAbout />
         <FeaturesGallery />
         <FeaturesAnimation />
+          <Process2 />
         <CtaContact />
 
       </main>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import MockupImage02 from '../images/downloads/screen_4.jpg';
-import MockupImage03 from '../images/downloads/screen_2.jpg';
-import MockupImage04 from '../images/downloads/screen_3.jpg';
+import MockupImage02 from '../images/downloads/screen_1.jpg';
+import MockupImage03 from '../images/downloads/screen_5.jpg';
+import MockupImage04 from '../images/downloads/screen_7.jpg';
 import IphoneMockup from '../images/iphone-mockup.png';
 
-function Process() {
+function Process2() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -96,4 +96,4 @@ function Process() {
   );
 }
 
-export default Process;
+export default Process2;

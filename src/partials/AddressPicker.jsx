@@ -31,7 +31,7 @@ function AddressPicker({ label, onSelectAddress }) {
                 <input
                     {...getInputProps({
                       placeholder: 'Enter your address...',
-                      className: 'form-input w-full',
+                      className: 'form-input w-full dark:text-white placeholder-gray-400 dark:placeholder-white',
                     })}
                 />
                 <div className="absolute z-10 mt-2 bg-white shadow-lg rounded-lg">

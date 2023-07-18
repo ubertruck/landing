@@ -33,7 +33,7 @@ function ShipmentForm() {
 
     const fetchMotorTypes = async () => {
         try {
-            const response = await fetch('http://localhost:8080/v1/motor-types');
+            const response = await fetch('http://api.elixirstudio.ru:8080/v1/motor-types');
             const data = await response.json();
             setMotorTypes(data.results);
         } catch (error) {
@@ -43,7 +43,7 @@ function ShipmentForm() {
 
     const fetchLoadTypes = async () => {
         try {
-            const response = await fetch('http://localhost:8080/v1/load-types');
+            const response = await fetch('http://api.elixirstudio.ru:8080/v1/load-types');
             const data = await response.json();
             setLoadTypes(data.results);
         } catch (error) {
@@ -104,7 +104,7 @@ function ShipmentForm() {
 
     const postShipment = async (data) => {
         try {
-            const response = await fetch('http://localhost:8080/v1/shipments', {
+            const response = await fetch('http://api.elixirstudio.ru:8080/v1/shipments', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(data),
@@ -188,7 +188,7 @@ function ShipmentForm() {
                                 Date:</label>
                             <input
                                 type="date"
-                                className="form-input w-full"
+                                className="form-input w-full dark:text-white placeholder-gray-400 dark:placeholder-white"
                                 value={pickupDate}
                                 onChange={handlePickupDateChange}
                                 min={currentDate}
@@ -200,7 +200,7 @@ function ShipmentForm() {
                                 Date:</label>
                             <input
                                 type="date"
-                                className="form-input w-full"
+                                className="form-input w-full dark:text-white placeholder-gray-400 dark:placeholder-white"
                                 value={deliveryDate}
                                 onChange={handleDeliveryDateChange}
                                 min={pickupDate}
@@ -214,7 +214,7 @@ function ShipmentForm() {
                                    htmlFor="motorType">Select truck type</label>
                             <span className="text-sm text-gray-500">Optional</span>
                         </div>
-                        <select id="motorType" className="form-select w-full"
+                        <select id="motorType" className="form-select w-full dark:text-white placeholder-gray-400 dark:placeholder-white"
                                 value={selectedMotorType} onChange={(e) => setSelectedMotorType(e.target.value)}
                         >
                             <option value="">Select Motor Type</option>
@@ -232,7 +232,7 @@ function ShipmentForm() {
                                    htmlFor="loadType">Select load type</label>
                             <span className="text-sm text-gray-500">Optional</span>
                         </div>
-                        <select id="loadType" className="form-select w-full" value={selectedLoadType}
+                        <select id="loadType" className="form-select w-full dark:text-white placeholder-gray-400 dark:placeholder-white" value={selectedLoadType}
                                 onChange={(e) => setSelectedLoadType(e.target.value)}>
                             <option value="">Select Load Type</option>
                             {loadTypes && loadTypes.length && loadTypes.map((loadType) => (
@@ -249,7 +249,7 @@ function ShipmentForm() {
                                    htmlFor="email">Email</label>
                             <span className="text-sm text-gray-500">Optional</span>
                         </div>
-                        <input id="email" name="email" type="email" className="form-input w-full" value={email}
+                        <input id="email" name="email" type="email" className="form-input w-full dark:text-white placeholder-gray-400 dark:placeholder-white" value={email}
                                onChange={e => setEmail(e.target.value)}
                                placeholder="Enter your email"/>
                     </div>
@@ -262,7 +262,7 @@ function ShipmentForm() {
                                 <span className="text-sm text-gray-500">Optional</span>
                             </div>
                             <textarea id="additionalInfo" name="additionalInfo" rows="4"
-                                      className="form-textarea w-full"
+                                      className="form-textarea w-full dark:text-white placeholder-gray-400 dark:placeholder-white"
                                       value={additionalInfo} onChange={e => setAdditionalInfo(e.target.value)}
                                       placeholder="What do you want to build with Appy?"></textarea>
                         </div>

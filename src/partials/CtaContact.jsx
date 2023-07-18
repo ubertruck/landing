@@ -1,6 +1,9 @@
 import React from 'react';
+import SignupOptions from "./SignupOptions";
+import Modal from "../utils/Modal";
 
 function CtaContact() {
+  const [videoModalOpen, setVideoModalOpen] = React.useState(false);
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -36,13 +39,17 @@ function CtaContact() {
 
             {/* CTA button */}
             <div className="flex justify-center mt-8">
-              <a className="btn text-white bg-teal-500 hover:bg-teal-400" href="#0">Start Your Journey</a>
+              <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn text-white bg-teal-500 hover:bg-teal-400">Start Your Journey</button>
             </div>
 
           </div>
         </div>
 
       </div>
+
+      <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
+        <SignupOptions />
+      </Modal>
     </section>
   );
 }

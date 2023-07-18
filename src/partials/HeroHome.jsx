@@ -32,7 +32,7 @@ function HeroHome() {
                     {/* Author meta */}
                     <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
                       <div className="flex flex-col sm:flex-row justify-center max-w-sm mx-auto sm:max-w-md md:mx-0">
-                        <Link to="/contact">
+                        <Link to="/request">
                           <p className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0">Request one time shipment</p>
                         </Link>
                       </div>

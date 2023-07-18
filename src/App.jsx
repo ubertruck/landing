@@ -46,7 +46,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-post" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/request" element={<Contact />} />
         <Route path="/help" element={<Help />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
