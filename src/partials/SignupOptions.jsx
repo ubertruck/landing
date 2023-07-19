@@ -7,7 +7,7 @@ function SignupOptions() {
         <div className="-my-3 p-10 py-20">
 
           {/* 1st Item */}
-          <a className="cursor-pointer flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+          <a className="cursor-pointer flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="https://admin.cargocode.ai/sign-up-shipper">
             <div>
               <h4 className="h4 dark:text-gray-900 mb-3">Shippers</h4>
               <p className="text-gray-900">Get instant quotes and real-time tracking for streamlined operations. Access trusted carriers anytime. Join us now!</p>
@@ -18,7 +18,7 @@ function SignupOptions() {
           </a>
 
           {/* 2nd Item */}
-          <a className="cursor-pointer flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+          <a className="cursor-pointer flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="https://admin.cargocode.ai/sign-up-cargo">
             <div>
               <h4 className="h4 dark:text-gray-900 mb-3">Carriers</h4>
               <p className="text-gray-900">Seamless load bookings, real-time shipment tracking, and trusted shippers at your fingertips. Join now to elevate your carrier operations and grow your business.</p>
@@ -29,7 +29,7 @@ function SignupOptions() {
           </a>
 
           {/* 3rd Item */}
-          <a className="cursor-pointer flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+          <a className="cursor-pointer flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="https://admin.cargocode.ai/sign-up-shipper">
             <div>
               <h4 className="h4 dark:text-gray-900 mb-3">Customers</h4>
               <p className="text-gray-900">Instant quotes, live load monitoring, trusted carriers. Join now for streamlined shipping solutions.</p>

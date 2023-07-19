@@ -147,7 +147,7 @@ function Header() {
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li>
                   {/*provide custom url*/}
-                  <Link to="/sign-in" className="dark:text-white font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
+                  <a href="https://admin.cargocode.ai/sign-in" className="dark:text-white font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
                 </li>
                 <li>
                   <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn-sm cursor-pointer text-white bg-teal-500 hover:bg-teal-600 ml-3">
