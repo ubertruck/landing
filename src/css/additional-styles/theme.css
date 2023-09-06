@@ -50,7 +50,7 @@
 
 /* Light switch */
 .form-switch input[type="checkbox"].light-switch + label {
-    @apply bg-teal-500;
+    @apply bg-gray-500;
 }
 
 .dark .form-switch input[type="checkbox"].light-switch + label > span:first-child {

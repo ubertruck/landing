@@ -118,6 +118,7 @@ function Header() {
             <div className="flex items-center">
               {/* Desktop lights switch */}
               <div className="form-switch flex flex-col justify-center ml-3 mr-3">
+
                 <input
                     type="checkbox"
                     name="light-switch"
@@ -150,7 +151,7 @@ function Header() {
                   <a href="https://admin.cargocode.ai/sign-in" className="dark:text-white font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
                 </li>
                 <li>
-                  <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn-sm cursor-pointer text-white bg-teal-500 hover:bg-teal-600 ml-3">
+                  <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn-sm cursor-pointer text-white bg-black hover:bg-black ml-3">
                     <span>Sign up now</span>
                     <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" fill="#ffffff" />
@@ -164,6 +165,12 @@ function Header() {
           {/* Mobile menu */}
           <div className="inline-flex md:hidden">
             {/* Mobile lights switch */}
+            <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn-sm cursor-pointer text-white bg-black hover:bg-black ml-3 mr-5">
+              <span>Get started</span>
+              <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" fill="#ffffff" />
+              </svg>
+            </button>
             <div className="form-switch flex flex-col justify-center mr-6 -mt-0.5">
               <input
                 type="checkbox"
@@ -272,10 +279,11 @@ function Header() {
                     </li>
                     <hr/>
                     <li>
-                      <Link to="/sign-in" className="font-medium text-gray-900 dark:text-white hover:text-gray-900 py-2 flex items-center transition duration-150 ease-in-out">Sign in</Link>
+
+                      <a href="https://admin.cargocode.ai/sign-in" className="font-medium text-gray-900 dark:text-white hover:text-gray-900 py-2 flex items-center transition duration-150 ease-in-out">Sign in</a>
                     </li>
                     <li>
-                      <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn-sm text-white bg-teal-500 hover:bg-teal-600">
+                      <button type="button" onClick={(e) => {e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} className="btn-sm text-white bg-black hover:bg-black">
                         <span>Sign up now</span>
                         <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" fill="#ffffff" />
